@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { @apply bg-bg font-sans text-[17px] leading-[1.65] text-[#eef3ff] antialiased; overflow-x: hidden; }
+.doc h3 { @apply mb-2 mt-8 font-serif text-[25px] font-medium text-white; }
+.doc p, .doc li { @apply text-mute; }
+.doc ul { @apply list-disc pl-6; }
+.doc a { @apply text-blue; }
+@keyframes fill { from { transform: translateY(14px); } to { transform: translateY(-2px); } }
+.lvl { animation: fill 5s ease-in-out infinite alternate; }
+@media (prefers-reduced-motion: reduce) { .lvl { animation: none; } }
