@@ -26,6 +26,7 @@ export default function Footer() {
             <ul className="grid gap-2">
               <li><Link className={L} href="/privacy">Privacy policy</Link></li>
               <li><Link className={L} href="/terms">Terms and conditions</Link></li>
+              <li><Link className={L} href="/delete-account">Delete account</Link></li>
               <li><Link className={L} href="/contact">Contact</Link></li>
             </ul>
           </div>
